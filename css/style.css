@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+    appearance: none;
+    border: none;
+   }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.toDoList {
+    width: 336px;
+    /* height: 236px; */
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.cap {
+    width: 334px;
+    height: 28px;
+
+    border-radius: 10px 10px 0 0;
+
+    background: #FFDC40;
+}
+
+h1 {
+    width: 198px;
+    height: 34px;
+    margin: 13px 0 0 69px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.sort-dec {
+    width: 25px;
+    height: 15px;
+    margin: 16px 0 11px 281px;
+
+    cursor: pointer;
+
+    background: url(/img/sort-decrease.svg);
+}
+
+.sort-dec:hover {
+    background: url(/img/sort-decreaseHover.svg);
+}
+
+.sort-inc {
+    display: none;
+
+    width: 25px;
+    height: 15px;
+    margin: 16px 0 11px 281px;
+
+    cursor: pointer;
+
+    background: url(/img/sort-increase.svg);
+}
+
+.sort-inc:hover {
+    background: url(/img/sort-increaseHover.svg);
+}
+
+.block-inp {
+    width: 286px;
+    /* height: 40px; */
+    margin-left: 28px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.add {
+    display: flex;
+}
+
+input {
+    width: 209px;
+    height: 38px;
+    margin-left: 27px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+    border-radius: 10px;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+
+    cursor: pointer;
+
+    background: url(/img/close.svg);
+}
+
+.close:hover {
+    background: url(/img/closeHover.svg);
+}
+
+.button {
+    display: flex;
+
+    width: 150px;
+    height: 42px;
+    margin: 18px 0 19px 92px;
+
+    border-radius: 71px;
+    cursor: pointer;
+
+    background: #833AE0;
+}
+
+.plus {
+    width: 42px;
+    height: 42px;
+
+    background: url(/img/plus.svg);
+}
+
+.button p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 67px;
+    height: 26px;
+    margin: 8px 0 0 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.selected{
+    background-color: rgb(211, 211, 211);
+}
